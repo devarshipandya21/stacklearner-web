@@ -26,9 +26,18 @@ class Signup extends Component {
         })
     }
     render() {
+        var headerMessage, btnText;        
+        if(this.props.from === "SignupPage") {
+            headerMessage = "Get Started for Free"
+            btnText = "Start coding now"
+        }
+        else if(this.props.from === "LandingPage") {
+            headerMessage = "Get Started"
+            btnText = "Sign up for free"
+        }
         return (
-            <div align="left" style={{ position: "absolute", left: "60rem", top: "10rem", width: "25rem" }}>
-                <h4 className="h4">Get started</h4>
+            <div align="left" style={{ position: "absolute", left: this.props.xpos + "rem", top: this.props.ypos + "rem", width: "25rem" }}>
+                <h4 className="h4">{headerMessage}</h4>
                 <br />
                 <form className="form-group">
                     <div>
@@ -42,7 +51,7 @@ class Signup extends Component {
                         <input type="password" className="form-control" value={this.state.password} onChange={this.handlePassChange}></input>
                         <br />
                     </div>
-                    <input type="submit" className="btn btn-primary w-100" style={{height: "3rem", fontSize: "1.25rem"}} value="Sign up for free"></input>
+                    <input type="submit" className="btn btn-primary w-100" style={{height: "3rem", fontSize: "1.25rem"}} value={btnText}></input>
                 </form>
                 <p className="text-muted">By signing up for StackLearner, you agree to <br />StackLearner's <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.</p>
                 <p className="font-weight-bold">Or, use another account</p>

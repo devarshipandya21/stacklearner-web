@@ -7,8 +7,8 @@ import React from 'react'
 function LandingPage() {
     return (
         <div>
-            <img src={stacklearner} width="500px" style={{ position: "absolute", top: 60, left: 0 }}></img>
-            <Signup xpos="1000" ypos="200"></Signup>
+            <img src={stacklearner} width="500px" style={{ position: "absolute", top: "4rem", left: "3rem" }}></img>
+            <Signup xpos="60" ypos="10" from="LandingPage"></Signup>
         </div>
     )
 }
