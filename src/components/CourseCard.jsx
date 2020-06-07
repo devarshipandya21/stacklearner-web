@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import '.././stylesheets/CourseCardStyle.css'
+import CourseProgress from './CourseProgress'
+
 
 class CourseCard extends Component {
     render() {
@@ -10,9 +12,11 @@ class CourseCard extends Component {
                 </div>
                 <div className="card-body text-dark">
                     <h4 className="card-title">{this.props.coursename}</h4>
-                    <p className="card-text text-secondary">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus optio impedit eum nobis deleniti.
+                    <p className="card-text text-secondary text-left">
+                        Approximate Course Length: 48 hours
+                        Instructor: Dr. Saurabh Dey
                     </p>
+                    <CourseProgress prgval="25"/>
                     <a href="#" className="btn btn-outline-success">Resume Course</a>
                 </div>
 
