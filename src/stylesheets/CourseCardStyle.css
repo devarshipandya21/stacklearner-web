@@ -1,11 +1,12 @@
-.card {
+.coursecard {
     width: 20rem;
 }
 
-.card:hover {
+.coursecard:hover {
     box-shadow: 5px 7px 11px 1px grey !important;
     transition: 0.5s ease !important;
-    transform: scale(1.05);
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .card-img-top {

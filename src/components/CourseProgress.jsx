@@ -16,7 +16,7 @@ class CourseProgress extends Component {
     render() {
         return (
             <div>
-                <div className="badge badge-grey" style={{position: "relative", right: this.props.prgval + "%", display: "hidden"}}>{this.props.prgval}</div>
+                {/* <div className="badge badge-grey" style={{position: "relative", right: this.props.prgval + "%", display: "hidden"}}>{this.props.prgval}</div> */}
                 <div className="progress" onMouseOver={this.showval}>
                     <div className="progress-bar bg-success" style={{ width: this.props.prgval + "%" }}></div>
                 </div>

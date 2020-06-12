@@ -6,7 +6,7 @@ import CourseProgress from './CourseProgress'
 class CourseCard extends Component {
     render() {
         return (
-            <div className="card text-center shadow">
+            <div className="card text-center shadow coursecard">
                 <div className="overflow">
                     <img src={this.props.imgsrc} alt="img" className="card-img-top"></img>
                 </div>
@@ -16,10 +16,9 @@ class CourseCard extends Component {
                         Approximate Course Length: 48 hours
                         Instructor: Dr. Saurabh Dey
                     </p>
-                    <CourseProgress prgval="25"/>
+                    <CourseProgress prgval="25" />
                     <a href="#" className="btn btn-outline-success">Resume Course</a>
                 </div>
-
             </div>
         )
     }
