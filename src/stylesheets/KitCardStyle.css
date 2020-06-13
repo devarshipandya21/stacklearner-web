@@ -1,0 +1,11 @@
+.kitcard {
+    width: 25rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.kitcardcontainer:hover {
+    transform: scale(1.01);
+    transition: 0.5s ease;
+    opacity: 0.9;
+}
