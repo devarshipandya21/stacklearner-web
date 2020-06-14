@@ -9,7 +9,7 @@ class LessonBar extends Component {
                 <div className="lessonbarcontent">
                     <img src={lessonicon} alt="icon" width="30px" style={{ marginLeft: "1rem" }} />
                     <a href="#"><span className="lessontext">Lesson</span>
-                        <span className="lessontext">Welcome to StackLearner</span></a>
+                        <span className="lessontext">Lorem ipsum dolor sit</span></a>
                 </div>
             </div>
         )

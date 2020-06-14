@@ -1,0 +1,23 @@
+.editortoolbar {
+width: 35rem;
+background-color: black;
+position: relative;
+bottom: 0px;
+}
+
+.runbtn {
+    background-color: #25c025;
+    border-radius: 0px;
+    color: white;
+    width: auto;
+}
+
+.runbtn:hover {
+    background-color: rgb(49, 153, 49);
+    color: white;
+}
+
+.resetbtn .solbtn {
+    border-radius: 0px;
+    background-color: blue !important;
+}

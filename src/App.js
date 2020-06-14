@@ -7,6 +7,7 @@ import NavigationBar from './components/NavigationBar';
 import SignupPage from './components/SignupPage';
 import LoginPage from './components/LoginPage';
 import StudentDashboard from './components/StudentDashboard'
+import CourseStartPage from './components/CourseStartPage';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <LandingPage /> */}
       {/* <SignupPage /> */}
       {/* <LoginPage /> */}
-      <StudentDashboard />
+      {/* <StudentDashboard /> */}
+      <CourseStartPage />
     </div>
   );
 }
