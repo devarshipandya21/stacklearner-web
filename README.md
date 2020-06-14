@@ -23,58 +23,45 @@ Repository URL:
 * [Font Awesome 4](https://fontawesome.com/icons?d=gallery) - Icon library
 * [React Ace component](https://github.com/securingsincity/react-ace) - Code editor component for react
 * [jQuery](https://jquery.com/) - JavaScript library
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom) - React routing library
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, assume the marker just acquired a computer
-
-```
-Give the example
-```
-
-And repeat
+Install Node.js on the local machine.
+Open Visual Studio Code and type the following command
 
 ```
-until finished
+npx create-react-app AppName
 ```
 
-End with an example of getting some data out of the system or using it for a little demo. You may also include a quick example of what the marker should see if the installation of all required software / libraries / plug-ins was successful.
-
-
-## Running the tests
-
-If needing to run automated tests, then explain how to run the automated tests for this system. If this section is not needed, ** you may delete **.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+The react application is ready to use. Type the following commands to run it on your localhost.
 
 ```
-Give an example
+cd MyApp
+npm start
 ```
 
-### And coding style tests
+### Pages Chosen for Development
+1. Landing Page
+2. Sign up Page
+3. Login Page
+4. Profile Setup Page
+5. Student Dashboard
+6. Course Learn Page
 
-Explain what these tests test and why
+### Landing Page Features
 
-```
-Give an example
-```
+### Sign up Page Features
 
+### Login Page Features
 
-## Deployment
+### Profile Setup Page Features
+
+### Student Dashboard Features
+
+### Course Learn Page Features
 
 Add additional notes about how to deploy this on a live system
-
-## Built With
-
-Provide a list of the frameworks used to build this application, your list should include the name of the framework used, the url where the framework is available for download and what the framework was used for, see the example below 
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Sources Used
 
