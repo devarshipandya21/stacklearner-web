@@ -32,21 +32,13 @@ class StudentDashboard extends Component {
                 </div>
 
                 <div className="container-fluid d-flex justify-content-center flex-wrap" style={{ position: "relative", top: "7rem", margin: "1rem" }}>
+                <p className="font-weight-bold text-left margin-left: 1rem" style={{ position: "relative", top: "1rem", fontSize: "1.7rem" }}>My Courses</p>
                     <div className="row">
                         <div className="col-md-4">
                             <CourseCard imgsrc={python_card} coursename="Python 3.6 for Absolute Beginners" />
                         </div>
                         <div className="col-md-4">
                             <CourseCard imgsrc={javascript_card} coursename="Modern JavaScript from Scratch" />
-                        </div>
-                        <div className="col-md-4">
-                            <CourseCard imgsrc={cpp_card} coursename="C++: From Beginner to Expert" />
-                        </div>
-                        <div className="col-md-4">
-                            <CourseCard imgsrc={cpp_card} coursename="C++: From Beginner to Expert" />
-                        </div>
-                        <div className="col-md-4">
-                            <CourseCard imgsrc={cpp_card} coursename="C++: From Beginner to Expert" />
                         </div>
                         <div className="col-md-4">
                             <CourseCard imgsrc={cpp_card} coursename="C++: From Beginner to Expert" />
