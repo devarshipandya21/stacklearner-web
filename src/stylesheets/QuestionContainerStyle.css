@@ -7,21 +7,18 @@
     padding-top: 2rem;
 }
 
-/* Container for a sidebar. */
 .sidebar-container {
 	height: 100%;
 	position: fixed;
     padding: 0px;
     margin-top: -50px;
     padding-top: 50px;
-	border-right: 1px solid #ddd;
     width: 30%;
 }
 
 .sidebar-header {
 	position: relative;
 	padding: 10px;
-    border-bottom: 1px solid #ddd;
     background-color: rgb(39, 38, 38);
     opacity: 0.9;
     z-index: 3;
@@ -31,7 +28,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Scrollable sidebar. */
 .sidebar {
     height: 85%;
 	position: relative;

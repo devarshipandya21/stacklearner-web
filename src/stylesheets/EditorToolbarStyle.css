@@ -1,8 +1,9 @@
 .editortoolbar {
 width: 35rem;
 background-color: black;
-position: relative;
+position: fixed;
 bottom: 0px;
+height: 2.63rem;
 }
 
 .runbtn {
@@ -10,6 +11,7 @@ bottom: 0px;
     border-radius: 0px;
     color: white;
     width: auto;
+    height: inherit;
 }
 
 .runbtn:hover {
@@ -17,7 +19,6 @@ bottom: 0px;
     color: white;
 }
 
-.resetbtn .solbtn {
-    border-radius: 0px;
-    background-color: blue !important;
+.resetbtn, .solbtn {
+    height: inherit;
 }
