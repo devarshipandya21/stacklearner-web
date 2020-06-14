@@ -3,6 +3,7 @@ import google_icon from '.././images/google-icon.png'
 import fb_icon from '.././images/facebook-icon.png'
 import linkedin_icon from '.././images/linkedin-icon.png'
 import github_icon from '.././images/github-icon.png'
+import { Link } from 'react-router-dom'
 
 
 class Login extends Component {
@@ -44,7 +45,9 @@ class Login extends Component {
                     </div>
                     <a href="#" className="text-muted font-weight-bold">I forgot my password</a>
                     <br /><br />
-                    <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value="Log in"></input>
+                    <Link to="/student-dashboard">
+                        <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value="Log in"></input>
+                    </Link>
                 </form>
                 <p className="font-weight-bold">Login with another account</p>
                 <div className="row" style={{ width: "16rem" }}>

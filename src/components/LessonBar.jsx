@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../stylesheets/LessonBarStyle.css'
 import lessonicon from '../images/lesson-icon.png'
+import { Link } from 'react-router-dom'
 
 class LessonBar extends Component {
     render() {
@@ -8,8 +9,10 @@ class LessonBar extends Component {
             <div className="lessonbar">
                 <div className="lessonbarcontent">
                     <img src={lessonicon} alt="icon" width="30px" style={{ marginLeft: "1rem" }} />
-                    <a href="#"><span className="lessontext">Lesson</span>
-                        <span className="lessontext">Lorem ipsum dolor sit</span></a>
+                    <Link to="/course-page">
+                        <a href="#"><span className="lessontext">Lesson</span>
+                            <span className="lessontext">Lorem ipsum dolor sit</span></a>
+                    </Link>
                 </div>
             </div>
         )
