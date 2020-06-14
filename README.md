@@ -1,68 +1,133 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Assignment 2: StackLearner
 
-## Available Scripts
+* Date Created: 05 06 2020
+* Last Modification Date: 14 06 2020
 
-In the project directory, you can run:
+## Author
 
-### `npm start`
+* [Devarshi Pandya](devarshi.pandya@dal.ca)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Deployment URL:
+Repository URL:
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* To run this react application on your local machine, just clone the repository. You need Node.js on your local machine to run this react application.
 
-### `npm run build`
+### Libraries and Frameworks Used
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [React.js](https://reactjs.org/) - Frontend library
+* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - Styling framework
+* [Font Awesome 4](https://fontawesome.com/icons?d=gallery) - Icon library
+* [React Ace component](https://github.com/securingsincity/react-ace) - Code editor component for react
+* [jQuery](https://jquery.com/) - JavaScript library
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Installing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A step by step series of examples that tell you how to get a development env running
 
-### `npm run eject`
+Say what the step will be, assume the marker just acquired a computer
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+Give the example
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+And repeat
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+until finished
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+End with an example of getting some data out of the system or using it for a little demo. You may also include a quick example of what the marker should see if the installation of all required software / libraries / plug-ins was successful.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Running the tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If needing to run automated tests, then explain how to run the automated tests for this system. If this section is not needed, ** you may delete **.
 
-### Code Splitting
+### Break down into end to end tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Explain what these tests test and why
 
-### Analyzing the Bundle Size
+```
+Give an example
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### And coding style tests
 
-### Making a Progressive Web App
+Explain what these tests test and why
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```
+Give an example
+```
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Deployment
 
-### Deployment
+Add additional notes about how to deploy this on a live system
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Built With
 
-### `npm run build` fails to minify
+Provide a list of the frameworks used to build this application, your list should include the name of the framework used, the url where the framework is available for download and what the framework was used for, see the example below 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Sources Used
+
+If in completing your lab / assignment / project you used any interpretation of someone else's code, then provide a list of where the code was implement, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
+
+### File Name
+
+Lines ## - ##
+---------------
+
+```
+Copy and paste your code on lines mentioned 
+
+```
+
+The code above was created by adapting the code in [NAME](link) as shown below: 
+
+```
+Copy and paste the snippet of code you are referencing
+
+```
+
+- <!---How---> The code in [NAME](link) was implemented by...
+- <!---Why---> [NAME](link)'s Code was used because...
+- <!---How---> [NAME](link)'s Code was modified by...
+
+Repeat as needed
+
+### File Name
+
+Lines ## - ##
+---------------
+
+```
+Copy and paste your code on lines mentioned 
+
+```
+
+The code above was created by adapting the code in [NAME](link) as shown below: 
+
+```
+Copy and paste the snippet of code you are referencing
+
+```
+
+- [How] The code in [NAME](link) was implemented by...
+- [Why] [NAME](link) Code was used because...
+- [How] [NAME](link) Code was modified by...
+
+Repeat as needed
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
