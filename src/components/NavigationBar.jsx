@@ -3,7 +3,7 @@ import logo from '../images/logo192.png'
 import { Link } from 'react-router-dom'
 
 const NavigationBar = () => (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow" style={{ position: "fixed", top: "0px", width: "100%", zIndex: 100, height: "5rem" }}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow" style={{ position: "fixed", top: "0px", width: "100%", zIndex: 1000, height: "5rem" }}>
         <img src={logo} width="30" height="30" alt="logo" style={{ marginRight: "1rem" }}></img>
         <Link to="/">
             <a className="navbar-brand" href="#">stacklearner</a>

@@ -3,6 +3,7 @@ import google_icon from '.././images/google-icon.png'
 import fb_icon from '.././images/facebook-icon.png'
 import linkedin_icon from '.././images/linkedin-icon.png'
 import github_icon from '.././images/github-icon.png'
+import { Link } from 'react-router-dom'
 
 
 class Signup extends Component {
@@ -19,19 +20,19 @@ class Signup extends Component {
     }
 
     validateEmail = (email) => {
-        if(email.length === 0) {
+        if (email.length === 0) {
             return ("")
         }
         if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
             return ("")
         }
-            return ("Enter a valid email address.")
+        return ("Enter a valid email address.")
     }
 
     validatePassword = (password) => {
         var errorStr = ""
 
-        if(password.length === 0) {
+        if (password.length === 0) {
             errorStr = ""
             return (<small className="text-danger">{errorStr}</small>)
         }
@@ -92,7 +93,9 @@ class Signup extends Component {
                         <div>{this.state.passwordErrorMsg}</div>
                         <br />
                     </div>
-                    <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value={btnText}></input>
+                    <Link to="/set-profile">
+                        <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value={btnText}></input>
+                    </Link>
                 </form>
                 <p className="text-muted">By signing up for StackLearner, you agree to <br />StackLearner's <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.</p>
                 <p className="font-weight-bold">Or, use another account</p>
@@ -102,7 +105,6 @@ class Signup extends Component {
                     <button className="btn btn-default col col-xs-4"><img src={linkedin_icon} /></button>
                     <button className="btn btn-default col col-xs-4"><img src={github_icon} /></button>
                 </div>
-
             </div>
         )
     }

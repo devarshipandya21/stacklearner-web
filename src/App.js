@@ -9,6 +9,7 @@ import SignupPage from "./components/SignupPage";
 import LoginPage from "./components/LoginPage";
 import StudentDashboard from "./components/StudentDashboard";
 import CourseStartPage from "./components/CourseStartPage";
+import SetProfilePage from "./components/SetProfilePage"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/login" component={LoginPage} />
           <Route path="/student-dashboard" component={StudentDashboard} />
           <Route path="/course-page" component={CourseStartPage} />
+          <Route path="/set-profile" component={SetProfilePage} />
         </Switch>
       </Router>
     </div>

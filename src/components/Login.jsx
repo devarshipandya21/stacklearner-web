@@ -12,20 +12,35 @@ class Login extends Component {
 
         this.state = {
             email: "",
-            password: ""
+            password: "",
+            emailErrorMsg: ""
         }
 
     }
+
+    validateEmail = (email) => {
+        if (email.length === 0) {
+            return ("")
+        }
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+            return ("")
+        }
+        return ("Enter a valid email address.")
+    }
+
     handleEmailChange = (event) => {
         this.setState({
-            email: event.target.value
+            email: event.target.value,
+            emailErrorMsg: this.validateEmail(event.target.value)
         })
     }
+
     handlePassChange = (event) => {
         this.setState({
             password: event.target.value
         })
     }
+
     render() {
         return (
             <div align="left" style={{ position: "absolute", left: this.props.xpos + "%", top: this.props.ypos + "%", width: "25rem", transform: "translate(-50%, -50%)" }}>
@@ -36,6 +51,7 @@ class Login extends Component {
                         <label className="label label-default font-weight-bold">Email</label>
                         <br />
                         <input type="email" className="form-control" value={this.state.email} onChange={this.handleEmailChange}></input>
+                        <small className="text-danger">{this.state.emailErrorMsg}</small>
                     </div>
                     <div style={{ marginTop: "10px" }}>
                         <label className="label label-default font-weight-bold">Password</label>
