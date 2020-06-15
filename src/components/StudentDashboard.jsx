@@ -15,7 +15,7 @@ import kitimg3 from '../images/kit-img-3.png'
 class StudentDashboard extends Component {
     render() {
         return (
-            <div className="container p-0" style={{ top: "1rem", marginLeft: "3rem", marginRight: "0rem"}}>
+            <div className="p-5" style={{ top: "1rem", marginLeft: "3rem", marginRight: "0rem"}}>
 
                 <div className="row" style={{ position: "relative", top: "6rem" }}>
                     <div className="col-md-10 justify-content-center p-1">

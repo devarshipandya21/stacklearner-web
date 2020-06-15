@@ -13,7 +13,7 @@ export class SignupPage extends Component {
                     <div className="col-md-4">
 
                     </div>
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-md-4 col-sm-12 align-self-center">
                         <Signup from="SignupPage" />
                     </div>
 

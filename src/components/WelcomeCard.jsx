@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../stylesheets/WelcomeCardStyle.css'
 import LessonBar from './LessonBar'
+import { Link } from 'react-router-dom'
 
 class WelcomeCard extends Component {
     render() {
@@ -13,13 +14,29 @@ class WelcomeCard extends Component {
                         <p className="card-text font-weight-bold text-left">
                             Currently on StackLearner
                     </p>
-                        <div className="row ml-1">
-                            <LessonBar />
-                            <LessonBar />
-                            <LessonBar />
-                            <LessonBar />
+                        <div className="row">
+                            <div className="col-md-12">
+                                <Link to="course-page" width="100%">
+                                    <LessonBar />
+                                </Link>
+                            </div>
+                            <div className="col-md-12">
+                                <Link to="course-page" width="100%">
+                                    <LessonBar />
+                                </Link>
+                            </div>
+                            <div className="col-md-12">
+                                <Link to="course-page" width="100%">
+                                    <LessonBar />
+                                </Link>
+                            </div>
+                            <div className="col-md-12">
+                                <Link to="course-page" width="100%">
+                                    <LessonBar />
+                                </Link>
+                            </div>
                         </div>
-                        <a href="#" className="font-weight-bold text-right" style={{ fontSize: "1.2rem", color: "black" }}>
+                        <a className="font-weight-bold text-right" style={{ fontSize: "1.2rem", color: "black" }}>
                             Start<i className="fa fa-arrow-circle-right" style={{ marginLeft: "0.5rem" }}>
                             </i></a>
                     </div>
