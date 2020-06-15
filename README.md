@@ -1,7 +1,7 @@
 # Assignment 2: StackLearner
 
-* Date Created: 05 06 2020
-* Last Modification Date: 14 06 2020
+* Date Created: 07 06 2020
+* Last Modification Date: 15 06 2020
 
 ## Author
 
@@ -9,8 +9,8 @@
 
 ## Getting Started
 
-Deployment URL:
-Repository URL:
+Deployment URL: https://stacklearner-devarshi.herokuapp.com/
+Repository URL: https://git.cs.dal.ca/dpandya/a2_devarshi_pandya
 
 ### Prerequisites
 
@@ -42,25 +42,39 @@ npm start
 ```
 
 ### Pages Chosen for Development
-1. Landing Page
+1. Landing Page (https://stacklearner-devarshi.herokuapp.com/)
+2. Sign up Page (https://stacklearner-devarshi.herokuapp.com/signup)
+3. Login Page (https://stacklearner-devarshi.herokuapp.com/login)
+4. Profile Setup Page (https://stacklearner-devarshi.herokuapp.com/set-profile)
+5. Student Dashboard (https://stacklearner-devarshi.herokuapp.com/student-dashboard)
+6. Course Learn Page (https://stacklearner-devarshi.herokuapp.com/course-page)
 
-2. Sign up Page
-3. Login Page
-4. Profile Setup Page
-5. Student Dashboard
-6. Course Learn Page
+### Landing Page Features (https://stacklearner-devarshi.herokuapp.com/)
+![](/screenshots/landing-page.png)
+* This is a simplistic landing page design. The landing page contains the signup form. However, the user can open a new signup page from the navbar.
+* Image designed using Canva (https://www.canva.com/). 
+* Source of the original image: Pinterest (https://www.pinterest.ca/)
+* Icons obtained from: Flaticon (https://www.flaticon.com/)
+* Responsiveness: Can be used easily on any screen size device. The components adjust elegantly.
+* Colour palette used: Blue, Grey, Dark Grey, White
 
-### Landing Page Features
+### Sign up Page Features (https://stacklearner-devarshi.herokuapp.com/signup)
+![](/screenshots/signup-page.png)
+* The signup form contains form validations for email address and password.
+![](/screenshots/validations.png)
+* Image designed using Canva (https://www.canva.com/). 
+* Source of the original images: Pinterest (https://www.pinterest.ca/), Stockfresh (https://stockfresh.com/)
+* Icons obtained from: Flaticon (https://www.flaticon.com/)
+* Responsiveness: Can be used easily on any screen size device. The components adjust elegantly.
+* Colour palette used: Blue, Grey, Dark Grey, White
 
-### Sign up Page Features
+### Login Page Features (https://stacklearner-devarshi.herokuapp.com/login)
 
-### Login Page Features
+### Profile Setup Page Features (https://stacklearner-devarshi.herokuapp.com/set-profile)
 
-### Profile Setup Page Features
+### Student Dashboard Features (https://stacklearner-devarshi.herokuapp.com/student-dashboard)
 
-### Student Dashboard Features
-
-### Course Learn Page Features
+### Course Learn Page Features (https://stacklearner-devarshi.herokuapp.com/course-page)
 
 Add additional notes about how to deploy this on a live system
 
