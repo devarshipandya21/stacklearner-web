@@ -43,6 +43,7 @@ npm start
 
 ### Pages Chosen for Development
 1. Landing Page
+
 2. Sign up Page
 3. Login Page
 4. Profile Setup Page
