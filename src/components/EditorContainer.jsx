@@ -9,7 +9,7 @@ class EditorContainer extends Component {
     render() {
         return (
             <div style={{height: "100%", marginLeft: "30%"}}>
-                <AceEditor theme="monokai" mode="javascript" height="600px" width="35rem" fontSize="16px" defaultValue={this.text}/>
+                <AceEditor theme="monokai" mode="javascript" height="80rem" width="35rem" fontSize="16px" defaultValue={this.text}/>
                 <EditorToolbar />
             </div>
         )
