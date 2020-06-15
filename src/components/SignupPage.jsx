@@ -5,9 +5,20 @@ import Signup from './Signup'
 export class SignupPage extends Component {
     render() {
         return (
-            <div>
-                <img src={signupimage} width="500px" style={{ position: "absolute", top: "5rem", left: "7rem" }}></img>
-                <Signup xpos="60" ypos="10" from="SignupPage"/>
+            <div className="m-0">
+                <div className="row justify-content-around">
+                    <div className="col-md-4 col-sm-12">
+                        <img src={signupimage} width="500px" className="img-fluid" style={{ position: "relative", top: "5rem" }}></img>
+                    </div>
+                    <div className="col-md-4">
+
+                    </div>
+                    <div className="col-md-4 col-sm-12">
+                        <Signup from="SignupPage" />
+                    </div>
+
+
+                </div>
             </div>
         )
     }

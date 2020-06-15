@@ -14,7 +14,7 @@ class EditorToolbar extends Component {
     }
     render() {
         return (
-            <div className="editortoolbar shadow" align="left">
+            <div className="editortoolbar shadow col-md-5 p-0" align="left">
                 <button className="runbtn btn">RUN<i class="fa fa-play-circle" aria-hidden="true" style={{ marginLeft: "0.5rem" }}></i></button>
                 <button className="resetbtn btn btn-dark rounded-0" data-toggle="tooltip" data-placement="top" title="Reset exercise">
                     <i class="fa fa-refresh" aria-hidden="true"></i>

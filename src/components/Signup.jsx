@@ -76,26 +76,28 @@ class Signup extends Component {
             btnText = "Sign up for free"
         }
         return (
-            <div align="left" style={{ position: "absolute", left: this.props.xpos + "rem", top: this.props.ypos + "rem", width: "25rem" }}>
-                <h4 className="h4">{headerMessage}</h4>
-                <br />
+            <div className="container" align="left" style={{ position: "relative", marginTop: "6rem"}}>
+                <div className="row">
+                    <div className="col-md-12">
+                        <h4 className="h4">{headerMessage}</h4>
+                    </div>
+                </div>
                 <form className="form-group">
-                    <div>
+                    <div className="col-md-12 p-0">
                         <label className="label label-default font-weight-bold">Email</label>
-                        <br />
                         <input type="email" className="form-control" value={this.state.email} onChange={this.handleEmailChange}></input>
                         <small className="text-danger">{this.state.emailErrorMsg}</small>
                     </div>
-                    <div style={{ marginTop: "10px" }}>
+                    <div className="col-md-12 p-0">
                         <label className="label label-default font-weight-bold">Password</label>
-                        <br />
                         <input type="password" className="form-control" value={this.state.password} onChange={this.handlePassChange}></input>
                         <div>{this.state.passwordErrorMsg}</div>
-                        <br />
                     </div>
-                    <Link to="/set-profile">
-                        <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value={btnText}></input>
-                    </Link>
+                    <div className="col-md-12 p-0 mt-3">
+                        <Link to="/set-profile">
+                            <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value={btnText}></input>
+                        </Link>
+                    </div>
                 </form>
                 <p className="text-muted">By signing up for StackLearner, you agree to <br />StackLearner's <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.</p>
                 <p className="font-weight-bold">Or, use another account</p>

@@ -8,7 +8,7 @@ class EditorContainer extends Component {
     text = "// Sample hello world function\nfunction helloWorld() {\ndocument.getElementById(\"demo\")\n\t\t.innerHTML = \"Hello World!\";\n}\n\nhelloWorld();";
     render() {
         return (
-            <div style={{height: "100%", marginLeft: "30%"}}>
+            <div style={{height: "100%"}}>
                 <AceEditor theme="monokai" mode="javascript" height="80rem" width="35rem" fontSize="16px" defaultValue={this.text}/>
                 <EditorToolbar />
             </div>

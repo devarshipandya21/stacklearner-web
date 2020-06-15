@@ -7,7 +7,7 @@ import baricon3 from '../images/concepts-icon.png'
 class QuestionContainerText extends Component {
     render() {
         return (
-            <div style={{textAlign: "left", padding: "1rem"}}>
+            <div style={{textAlign: "left", padding: "2rem"}}>
                 <ModuleHeadingBar img={baricon1} txt="Question"/>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, pariatur inventore. Doloremque labore perspiciatis temporibus adipisci ratione! At suscipit velit, tenetur autem nulla expedita hic commodi maxime, porro, incidunt magnam doloribus. Tempore quia, ratione recusandae placeat, rerum reiciendis fuga delectus perspiciatis similique vitae asperiores quisquam neque. Dolor, laudantium nam reiciendis facilis est beatae, quisquam, nobis saepe ipsa harum repellat perspiciatis provident? Deserunt explicabo unde cumque commodi expedita magni. Voluptatibus animi eos sapiente natus voluptates ipsa quaerat perspiciatis. Autem saepe qui, voluptatem repellendus ratione corrupti voluptas non totam assumenda voluptatibus ducimus quam et aspernatur accusantium delectus neque incidunt? Quis, quod vero!
                 <ModuleHeadingBar img={baricon2} txt="Instructions"/>

@@ -9,7 +9,7 @@ class OutputContainer extends Component {
                 <div className="outputheader">
                     Output
                 </div>
-                <img src={emptystate} alt="no output" width="500px" style={{position: "relative", top: "10rem"}}/>
+                <img src={emptystate} alt="no output" width="500px" className="img-fluid" style={{position: "relative", top: "10rem"}}/>
                 <p className="text-muted" style={{position: "relative", top: "7rem"}}>
                     <span className="font-weight-bold" style={{fontSize: "1.3rem"}}>Nothing to display!</span> <br />
                     Run the program to see the output.

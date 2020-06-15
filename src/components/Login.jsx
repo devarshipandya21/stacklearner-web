@@ -43,34 +43,50 @@ class Login extends Component {
 
     render() {
         return (
-            <div align="left" style={{ position: "absolute", left: this.props.xpos + "%", top: this.props.ypos + "%", width: "25rem", transform: "translate(-50%, -50%)" }}>
+            <div className="container col-md-5 col-sm-6 col-xs-12" align="left" style={{position: "relative", top: "10rem"}}>
                 <h4 className="h4">Log In to StackLearner</h4>
                 <br />
                 <form className="form-group">
-                    <div>
-                        <label className="label label-default font-weight-bold">Email</label>
-                        <br />
-                        <input type="email" className="form-control" value={this.state.email} onChange={this.handleEmailChange}></input>
-                        <small className="text-danger">{this.state.emailErrorMsg}</small>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <label className="label label-default font-weight-bold">Email</label>
+                        </div>
+                        <div className="col-md-12">
+                            <input type="email" className="form-control" value={this.state.email} onChange={this.handleEmailChange}></input>
+                            <small className="text-danger">{this.state.emailErrorMsg}</small>
+                        </div>
                     </div>
-                    <div style={{ marginTop: "10px" }}>
-                        <label className="label label-default font-weight-bold">Password</label>
-                        <br />
-                        <input type="password" className="form-control" value={this.state.password} onChange={this.handlePassChange}></input>
-                        <br />
+                    <div className="row">
+                        <div className="col-md-12">
+                            <label className="label label-default font-weight-bold">Password</label>
+                        </div>
+                        <div className="col-md-12">
+                            <input type="password" className="form-control" value={this.state.password} onChange={this.handlePassChange}></input>
+                        </div>
                     </div>
-                    <a href="#" className="text-muted font-weight-bold">I forgot my password</a>
-                    <br /><br />
-                    <Link to="/student-dashboard">
-                        <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value="Log in"></input>
-                    </Link>
+                    <div className="row">
+                        <div className="col-md-12 mt-2">
+                            <a href="#" className="text-muted font-weight-bold">I forgot my password</a>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-12 mt-3">
+                            <Link to="/student-dashboard">
+                                <input type="submit" className="btn btn-primary w-100" style={{ height: "3rem", fontSize: "1.25rem" }} value="Log in"></input>
+                            </Link>
+                        </div>
+                    </div>
                 </form>
-                <p className="font-weight-bold">Login with another account</p>
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="font-weight-bold">Login with another account</p>
+                    </div>
+                </div>
                 <div className="row" style={{ width: "16rem" }}>
-                    <button className="btn btn-default col col-xs-4"><img src={google_icon} /></button>
-                    <button className="btn btn-default col col-xs-4"><img src={fb_icon} /></button>
-                    <button className="btn btn-default col col-xs-4"><img src={linkedin_icon} /></button>
-                    <button className="btn btn-default col col-xs-4"><img src={github_icon} /></button>
+                    <button className="btn btn-default col col-xs-4"><img src={google_icon} className="img-fluid" /></button>
+                    <button className="btn btn-default col col-xs-4"><img src={fb_icon} className="img-fluid" /></button>
+                    <button className="btn btn-default col col-xs-4"><img src={linkedin_icon} className="img-fluid" /></button>
+                    <button className="btn btn-default col col-xs-4"><img src={github_icon} className="img-fluid" /></button>
                 </div>
             </div>
         )

@@ -5,6 +5,6 @@
     left: 0rem;
     border: 2px solid grey;
     border-radius: 15px;
-    margin-left: 2rem;
-    min-height: 26rem;
+    margin-left: 0rem;
+    height: inherit;
   }

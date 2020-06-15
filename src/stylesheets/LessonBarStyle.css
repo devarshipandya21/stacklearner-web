@@ -1,7 +1,7 @@
 .lessonbar {
   background-color: #f5e6ff;
   width: 95%;
-  height: 3rem;
+  height: auto;
   margin-left: 0;
   padding: 2% 0;
   margin-bottom: 1rem;
@@ -10,7 +10,7 @@
 
 .lessontext {
     font-size: 1.1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     font-weight: bold;
 }
