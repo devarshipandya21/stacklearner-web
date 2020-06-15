@@ -6,7 +6,7 @@ class ModuleHeadingBar extends Component {
         return (
             <div className="headingbar">
                 <div className="headingbarcontent">
-                    <img src={this.props.img} alt="icon" width="25px" style={{ marginLeft: "1rem" }} />
+                    <img src={this.props.img} alt="icon" className="img-fluid" width="25px" style={{ marginLeft: "1rem" }} />
                         <span className="headingbartext">{this.props.txt}</span>
                 </div>
             </div>

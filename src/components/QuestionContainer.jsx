@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../stylesheets/QuestionContainerStyle.css'
 import QuestionContainerText from './QuestionContainerText'
-import EditorContainer from './EditorContainer'
 
 class QuestionContainer extends Component {
     render() {

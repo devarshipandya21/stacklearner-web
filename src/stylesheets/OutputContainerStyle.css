@@ -1,16 +1,15 @@
 .outputwindow {
     background-color: white;
-    width: auto;
     position: fixed;
-    right: 0px;
     top: 0px;
+    right: 0px;
     height: 100%;
     z-index: 150;
     border: 0px;
 }
 
 .outputheader {
-	position: relative;
+    position: relative;
     padding: 10px;
     background-color: rgba(20, 20, 20, 0.075);
     top: 5rem;
