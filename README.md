@@ -9,8 +9,8 @@
 
 ## Getting Started
 
-Deployment URL: https://stacklearner-devarshi.herokuapp.com/
-Repository URL: https://git.cs.dal.ca/dpandya/a2_devarshi_pandya
+* Deployment URL: https://stacklearner-devarshi.herokuapp.com/
+* Repository URL: https://git.cs.dal.ca/dpandya/a2_devarshi_pandya
 
 ### Prerequisites
 
